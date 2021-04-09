@@ -1,0 +1,20 @@
+[user]
+        name = Moritz Behnke
+[alias]
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        df = diff
+        lg = log -p
+        fush = push --force-with-lease
+        full = "!git reset --hard origin/\"$(git rev-parse --abbrev-ref HEAD)\""
+        reset-brutal = !git reset --hard && git clean -df
+        remaster = "!sh -c 'git fetch origin master:master && git rebase master'"
+        relock = rebase -x 'yarn && git add yarn.lock && git commit --amend -C HEAD'
+        delete-merged-branches = "!sh -c 'git co master && git branch --merged | grep -v \\* | xargs git branch -D'; git co -"
+        dad = !curl https://icanhazdadjoke.com/ && echo
+[core]
+        editor = code -w
+[push]
+        default = current
