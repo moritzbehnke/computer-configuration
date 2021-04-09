@@ -10,9 +10,12 @@ brew "gti"
 brew "htop"
 brew "jq"
 brew "mas"
+brew "mysql"
 brew "node"
 brew "nvm"
 brew "python@3.9"
+brew "ruby-build"
+brew "rbenv"
 brew "speedtest-cli"
 brew "thefuck"
 brew "yarn"
@@ -20,12 +23,17 @@ brew "z"
 cask "alfred"
 cask "appcleaner"
 cask "daisydisk"
+cask "dozer"
 cask "google-chrome"
 cask "iterm2"
+cask "keycastr"
+cask "mtmr"
 cask "quicklook-json"
+cask "slack"
 cask "visual-studio-code"
 mas "Bear", id: 1091189122
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Playgrounds", id: 1496833156
+mas "Xcode", id: 497799835

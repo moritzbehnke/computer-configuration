@@ -1,4 +1,7 @@
+[init]
+        templatedir = /Users/moritz.behnke/.acn-security-tools/git-template
 [user]
+        email = moritz.behnke@sinnerschrader.com
         name = Moritz Behnke
 [alias]
         st = status
