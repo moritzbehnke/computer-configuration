@@ -1,5 +1,6 @@
 [user]
         name = Moritz Behnke
+        email = moritz.behnke@me.com
 [alias]
         st = status
         ci = commit
