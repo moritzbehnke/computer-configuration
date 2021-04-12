@@ -1,5 +1,6 @@
 [user]
         name = Moritz Behnke
+        email = moritz.behnke@me.com
 [alias]
         st = status
         ci = commit
@@ -18,3 +19,7 @@
         editor = code -w
 [push]
         default = current
+[pull]
+	rebase = false
+[includeIf "gitdir:~/Developer/uke/"]
+        path = ~/Developer/uke/.gitconfig

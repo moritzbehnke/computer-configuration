@@ -6,6 +6,12 @@ export ZSH="/Users/$USERNAME/.oh-my-zsh"
 # Path to Python
 export PATH=~/Library/Python/3.7/bin:$PATH
 
+# link python to python3
+alias python='python3'
+
+# fnm
+eval "$(fnm env)"
+
 # has to be installed seperately and needs powerline fonts (chage to fira in iterm settings)
 ZSH_THEME="spaceship"
 
@@ -14,7 +20,7 @@ plugins=(
     git
     node
     bundler
-    osx
+    macos
     rake
     ruby
     zsh-autosuggestions #has to be installed seperately
