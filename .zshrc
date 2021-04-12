@@ -65,9 +65,6 @@ export NVM_DIR="/Users/$USERNAME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # load nvm
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
 
-# add rbenv
-eval "$(rbenv init -)"
-
 # add direnv
 eval "$(direnv hook zsh)"
 

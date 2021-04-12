@@ -10,7 +10,7 @@ brew "gti"
 brew "htop"
 brew "jq"
 brew "mas"
-brew 'node'
+brew "node"
 brew "nvm"
 brew "python@3.9"
 brew "speedtest-cli"
