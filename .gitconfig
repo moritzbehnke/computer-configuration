@@ -21,3 +21,11 @@
         editor = code -w
 [push]
         default = current
+[pull]
+        rebase = false
+[credential]
+        helper = --help
+[team "alias"]
+        nikrad = Nikolaus Rademacher <nikolaus.rademacher@sinnerschrader.com>
+[team "state"]
+        status = disabled
