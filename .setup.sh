@@ -6,10 +6,6 @@ xcode-select —install
 brew update
 # install applications defined in the Brewfile
 brew bundle install
-# install avn
-npm install -g avn avn-nvm avn-n
-# setup avn
-avn setup
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # install oh-my-zsh spaceship prompt
