@@ -9,17 +9,16 @@
         df = diff
         lg = log -p
         fush = push --force-with-lease
-        full = "!git reset --hard origin/\"$(git rev-parse --abbrev-ref HEAD)\""
-        reset-brutal = !git reset --hard && git clean -df
-        remaster = "!sh -c 'git fetch origin master:master && git rebase master'"
-        relock = rebase -x 'yarn && git add yarn.lock && git commit --amend -C HEAD'
-        delete-merged-branches = "!sh -c 'git co master && git branch --merged | grep -v \\* | xargs git branch -D'; git co -"
         dad = !curl https://icanhazdadjoke.com/ && echo
+        full = "!git reset --hard origin/\"$(git rev-parse --abbrev-ref HEAD)\""
+        remaster = "!sh -c 'git fetch origin main:main && git rebase main'"
+        relock = rebase -x 'pnpm && git add pnpm-lock.yaml && git commit --amend -C HEAD'
+        delete-merged-branches = "!sh -c 'git co main && git branch --merged | grep -v \\* | xargs git branch -D'; git co -"
 [core]
         editor = code -w
 [push]
         default = current
 [pull]
-	rebase = false
+        rebase = false
 [includeIf "gitdir:~/Developer/uke/"]
         path = ~/Developer/uke/.gitconfig
