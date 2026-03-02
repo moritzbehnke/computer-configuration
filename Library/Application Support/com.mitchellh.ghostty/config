@@ -1,0 +1,39 @@
+font-size = 11
+keybind = cmd+k=clear_screen
+keybind = cmd+backspace=esc:w
+
+unfocused-split-opacity = 1
+
+window-padding-y = 10
+window-padding-x = 10
+
+# shell-integration = zsh
+shell-integration-features = title
+
+macos-titlebar-style = tabs
+macos-titlebar-proxy-icon = hidden
+
+palette = 0=#000000
+palette = 1=#f52121
+palette = 2=#21f921
+palette = 3=#ffff21
+palette = 4=#2121ff
+palette = 5=#ff21ff
+palette = 6=#21ffff
+palette = 7=#cecece
+palette = 8=#595959
+palette = 9=#f52121
+palette = 10=#21f921
+palette = 11=#ffff21
+palette = 12=#2121ff
+palette = 13=#ff21ff
+palette = 14=#21ffff
+palette = 15=#ffffff
+background = #000000
+foreground = #ffffff
+cursor-color = #ffffff
+selection-background = #dddddd
+selection-foreground = #000000
+
+# custom-shader = "~/.ghostty-shaders/starfield-colors.glsl"
+# custom-shader-animation = true
